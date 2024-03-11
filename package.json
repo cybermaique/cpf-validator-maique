@@ -1,5 +1,5 @@
 {
-  "name": "cpf-validator",
+  "name": "cpf-validator-maique",
   "version": "1.0.0",
   "description": "Uma biblioteca simples para validar números de CPF brasileiros.",
   "main": "dist/validateCPF.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cybermaique/cpf-validator"
+    "url": "https://github.com/cybermaique/cpf-validator-maique"
   },
   "keywords": [
     "cpf",

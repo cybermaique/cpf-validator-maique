@@ -7,7 +7,7 @@ Uma biblioteca simples e eficaz para validar números de CPF (Cadastro de Pessoa
 Este pacote está disponível através do npm. Você pode instalá-lo em seu projeto com o seguinte comando:
 
 ```
-npm install cpf-validator
+npm install cpf-validator-maique
 ```
 
 ## Uso
@@ -17,7 +17,7 @@ Depois de instalado, você pode importar e usar a função de validação de CPF
 ### JavaScript
 
 ```
-const { validateCPF } = require('cpf-validator');
+const { validateCPF } = require('cpf-validator-maique');
 const cpf = '000.000.000-00';
 console.log(validateCPF(cpf)); // Exibirá 'false' para este CPF inválido
 ```
@@ -25,7 +25,7 @@ console.log(validateCPF(cpf)); // Exibirá 'false' para este CPF inválido
 ### TypeScript
 
 ```
-import { validateCPF } from 'cpf-validator';
+import { validateCPF } from 'cpf-validator-maique';
 const cpf: string = '123.456.789-09';
 console.log(validateCPF(cpf)); // Exibirá 'true' ou 'false', dependendo da validade do CPF
 Use o código com cuidado.
