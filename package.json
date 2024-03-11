@@ -1,0 +1,25 @@
+{
+  "name": "cpf-validator",
+  "version": "1.0.0",
+  "description": "Uma biblioteca simples para validar números de CPF brasileiros.",
+  "main": "dist/validateCPF.js",
+  "types": "dist/validateCPF.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cybermaique/cpf-validator"
+  },
+  "keywords": [
+    "cpf",
+    "validação",
+    "brasil"
+  ],
+  "author": "Maique Doglas Moraes da Silva <maiqued.18@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}
