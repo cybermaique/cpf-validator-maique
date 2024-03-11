@@ -1,6 +1,6 @@
 {
   "name": "cpf-validator-maique",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Uma biblioteca simples para validar números de CPF brasileiros.",
   "main": "dist/validateCPF.js",
   "types": "dist/validateCPF.d.ts",
